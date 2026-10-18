@@ -1,0 +1,15 @@
+release: R04
+main_frame_centres: 1904
+main_archetype_rows: 18352
+code_license: MIT
+derived_license: CC-BY-4.0
+remote_input_policy: read_only
+raw_data_policy: do_not_redistribute
+wp_c_scenarios:
+  - main_v3
+  - svf_none_v3
+  - ach_open_lo_v3
+  - ach_open_hi_v3
+  - loss_rank2_v3
+wp_d_status: blocked_pending_source_and_network
+
