@@ -1,0 +1,10 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The compact derived tables and figures in `derived/` are made available under
+the Creative Commons Attribution 4.0 International license. To view a copy of
+this license, visit https://creativecommons.org/licenses/by/4.0/.
+
+You must give appropriate credit, provide a link to the license, and indicate
+if changes were made. This license does not change the terms of upstream
+third-party data from which the model inputs were derived.
+

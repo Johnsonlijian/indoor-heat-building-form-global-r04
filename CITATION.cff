@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the repository and the associated manuscript when its authors and DOI are confirmed."
+title: "Indoor heat exposure and building form: R04 reproducibility package"
+version: "0.1.0"
+date-released: 2026-10-18
+abstract: >-
+  Public code and compact derived outputs for a QA-passed global model of
+  indoor heat exposure, cooling-loss fragility and building-form sensitivity.
+  Raw third-party inputs are not redistributed.
+authors:
+  - name: "IMUT research team (author list to be confirmed)"
+license: "MIT AND CC-BY-4.0"
+repository-code: "https://github.com/Johnsonlijian/indoor-heat-building-form-global-r04"
+keywords:
+  - indoor heat
+  - building form
+  - urban climate
+  - reproducible research
+  - sensitivity analysis
+

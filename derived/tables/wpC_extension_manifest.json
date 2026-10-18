@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "centre_count": 1904,
+  "scenarios": [
+    "main_v3",
+    "svf_none_v3",
+    "ach_open_lo_v3",
+    "ach_open_hi_v3",
+    "loss_rank2_v3"
+  ],
+  "outputs": [
+    "wpC_extension_manifest.json",
+    "wpC_fan_allowance_summary.json",
+    "wpC_model_form_sensitivity.png",
+    "wpC_paired_delta_quantiles.csv",
+    "wpC_scenario_deltas.csv",
+    "wpC_scenario_totals.csv"
+  ],
+  "source_boundary": "local derived R04 city products only; no remote writes"
+}

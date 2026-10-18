@@ -1,0 +1,13 @@
+scenario,metric,n,q05,q50,q95
+svf_none_v3,uncooled_personhours_h_top30,1904,-24892179.736034784,416375.02967251744,92025968.59827435
+svf_none_v3,cooled_pop_loss_lt6h_top32,1904,0.0,0.0,0.0
+svf_none_v3,cooled_pop_loss_lt24h_top32,1904,-2.1703440798766627,0.0,0.0
+ach_open_lo_v3,uncooled_personhours_h_top30,1904,286850.4354099008,60293755.66007632,651107264.335362
+ach_open_lo_v3,cooled_pop_loss_lt6h_top32,1904,0.0,0.0,0.0
+ach_open_lo_v3,cooled_pop_loss_lt24h_top32,1904,0.0,0.0,203.75425376902362
+ach_open_hi_v3,uncooled_personhours_h_top30,1904,0.0,0.0,0.0
+ach_open_hi_v3,cooled_pop_loss_lt6h_top32,1904,0.0,0.0,0.0
+ach_open_hi_v3,cooled_pop_loss_lt24h_top32,1904,0.0,0.0,0.0
+loss_rank2_v3,uncooled_personhours_h_top30,1904,0.0,0.0,0.0
+loss_rank2_v3,cooled_pop_loss_lt6h_top32,1904,-15796.559111987368,0.0,70.71134302439488
+loss_rank2_v3,cooled_pop_loss_lt24h_top32,1904,-42446.965146728064,0.0,41.714708382984014
