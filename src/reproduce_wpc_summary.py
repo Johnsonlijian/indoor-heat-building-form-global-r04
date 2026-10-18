@@ -97,10 +97,16 @@ def run(input_dir: Path, out_dir: Path) -> None:
     fig.savefig(out_dir / "wpC_model_form_sensitivity.png", dpi=220)
     plt.close(fig)
 
-    (out_dir / "wpC_extension_manifest.json").write_text(json.dumps({
-        "status": "PASS", "centre_count": 1904, "scenarios": list(SCENARIOS),
-        "source_boundary": "staged local derived products only",
-    }, indent=2), encoding="utf-8")
+    manifest = {
+        "status": "PASS",
+        "centre_count": 1904,
+        "scenarios": list(SCENARIOS),
+        "outputs": [p.name for p in sorted(out_dir.iterdir()) if p.is_file()],
+        "source_boundary": "local derived R04 city products only; no remote writes",
+    }
+    (out_dir / "wpC_extension_manifest.json").write_text(
+        json.dumps(manifest, indent=2), encoding="utf-8"
+    )
 
 
 if __name__ == "__main__":
