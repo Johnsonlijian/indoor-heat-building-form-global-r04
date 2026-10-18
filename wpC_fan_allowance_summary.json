@@ -1,0 +1,14 @@
+{
+  "total_top30_personhours_bn": 2.7506717230803557,
+  "total_top30fan_personhours_bn": 1.4886561705229966,
+  "fan_allowance_reduction_bn": 1.2620155525573589,
+  "fan_allowance_reduction_pct": 45.88026778942867,
+  "centre_reduction_pct_quantiles": {
+    "n": 1876,
+    "q05": 21.594290681292645,
+    "q50": 58.566251093329285,
+    "q95": 97.82918168450755
+  },
+  "threshold_c": 31.8,
+  "interpretation": "thermal-model fan-allowance proxy; not a health threshold"
+}

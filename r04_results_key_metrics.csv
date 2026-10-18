@@ -1,0 +1,29 @@
+﻿key,metric,value,unit,definition,source
+R04-MAIN-01,Total modelled population,2.4299192360250945,billion residents,"Main v3 population across 1,904 centres and 18,352 archetype rows.",analysis/results_numbers_main_v3.json:pop_total_bn
+R04-MAIN-02,Uncooled residents,1.5585972856961599,billion residents,Population without cooling in the main v3 exposure product.,analysis/g2_metrics_main_v3.json:uncooled_pop_bn
+R04-MAIN-03,Cooled residents,871.3219503289343,million residents,Population assigned cooling in the main v3 run.,analysis/results_numbers_main_v3.json:cooled_total_M
+R04-MAIN-04,Chronic indoor burden >30 C,2750.6717230803556,billion person-hours yr-1,Uncooled person-hours with indoor operative temperature above 30 C.,analysis/results_numbers_main_v3.json:uncooled_personhours_top30_bn
+R04-MAIN-05,Chronic burden per uncooled resident,1764.8380042261822,hours resident-1 yr-1,Main chronic burden divided by uncooled population.,analysis/results_numbers_main_v3.json:h_per_uncooled_resident_all
+R04-MAIN-06,Cooled residents <6 h to 32 C,217.968455642982,million residents,Cooled residents whose operative temperature exceeds 32 C within six hours after cooling loss.,analysis/results_numbers_main_v3.json:cooled_loss_M.loss_h_to_top32.lt6h
+R04-MAIN-07,Cooled residents <24 h to 32 C,334.1362102809559,million residents,Cooled residents whose operative temperature exceeds 32 C within 24 hours after cooling loss.,analysis/results_numbers_main_v3.json:cooled_loss_M.loss_h_to_top32.lt24h
+R04-MAIN-08,Median indoor/outdoor ratio,1.2203509221635618,ratio,Median indoor-to-outdoor annual hours above 30 C among comparisons with >10 h in both series.,analysis/g2_metrics_main_v3.json:g2a_median_indoor_over_outdoor
+R04-MAIN-09,Centres indoor > outdoor,0.5724789915966386,share,"Share of all 1,904 centres with higher indoor than outdoor hours above 30 C.",analysis/g2_metrics_main_v3.json:share_cities_indoor_gt_outdoor
+R04-MAIN-10,Indoor/outdoor log-log r2,0.8116919862652529,r2,Log-log regression of population-weighted indoor versus outdoor hours above 30 C.,analysis/g2_metrics_main_v3.json:g2a_loglog_r2
+R04-MAIN-11,Indoor/outdoor residual spread,3.787244059257927,ratio,90th/10th percentile ratio of log-log residuals.,analysis/g2_metrics_main_v3.json:g2a_resid_ratio_p90_p10
+R04-MAIN-12,Within-centre form ratio (5% eligibility),1.5932747911758407,ratio,Median hottest/coolest archetype chronic burden ratio; archetypes must hold at least 5% of centre population.,analysis/g2_metrics_main_v3.json:g2b_form_ratio_median
+R04-MAIN-13,Centres with form ratio >=2,0.4060339409176619,share,Share of centres with the 5%-eligible within-centre ratio >=2.,analysis/g2_metrics_main_v3.json:g2b_share_cities_ratio_ge2
+R04-MAIN-14,Kendall indoor/outdoor rank tau,0.8081576094813314,tau,Kendall rank correlation of centre chronic indoor and outdoor rankings.,analysis/g2_metrics_main_v3.json:kendall_tau_indoor_vs_outdoor_rank
+R04-MAIN-15,Indoor top-100 reordering,20,centres,Indoor top-100 centres absent from the outdoor top 100.,analysis/g2_metrics_main_v3.json:top100_indoor_not_in_top100_outdoor
+R04-MAIN-16,Informal share of chronic burden,0.2917,share,Share of chronic burden carried by informal lightweight housing.,analysis/results_numbers_main_v3.json:by_group.share_ph.informal
+R04-MAIN-17,Lower-middle-income share of chronic burden,0.6771,share,Share of chronic burden in lower-middle-income countries.,analysis/results_numbers_main_v3.json:by_income.share_ph.Lower Middle
+R04-MAIN-18,Top-10-country share of chronic burden,0.7237508277686625,share,Cumulative share of chronic burden in the ten largest contributing countries.,analysis/results_numbers_main_v3.json:country_share_ph_top10_cum
+R04-CF-01,Cool roof: chronic burden,1978.4423845428469,billion person-hours yr-1,All-stock counterfactual; percentage change is relative to main v3.,analysis/levers_summary_v3.json:headline_by_run.cf_coolroof.uncooled_ph30_bn
+R04-CF-02,Window shading: chronic burden,2554.2729650229494,billion person-hours yr-1,All-stock counterfactual; percentage change is relative to main v3.,analysis/levers_summary_v3.json:headline_by_run.cf_shading.uncooled_ph30_bn
+R04-CF-03,Envelope insulation: chronic burden,2269.7351611643926,billion person-hours yr-1,All-stock counterfactual; percentage change is relative to main v3.,analysis/levers_summary_v3.json:headline_by_run.cf_insulation.uncooled_ph30_bn
+R04-CF-04,Cool roof + shading: chronic burden,1767.4728721494005,billion person-hours yr-1,All-stock counterfactual; percentage change is relative to main v3.,analysis/levers_summary_v3.json:headline_by_run.cf_all.uncooled_ph30_bn
+R04-WARM-01,warm15 chronic burden,4194.850580655421,billion person-hours yr-1,Uniform warming counterfactual relative to the 2019-2023 forcing.,analysis/levers_summary_v3.json:headline_by_run.warm15.uncooled_ph30_bn
+R04-WARM-02,warm20 chronic burden,4697.713995566193,billion person-hours yr-1,Uniform warming counterfactual relative to the 2019-2023 forcing.,analysis/levers_summary_v3.json:headline_by_run.warm20.uncooled_ph30_bn
+R04-MC-01,Monte Carlo ph30_bn,2354.3004228228265–3949.4423435442536,5th-95th percentile,100-member joint Monte Carlo; base and median are retained in Extended Data Table 7.,analysis/mc_summary.json:summary.ph30_bn
+R04-MC-02,Monte Carlo lt6_top32_M,116.93337011429148–416.5743464879857,5th-95th percentile,100-member joint Monte Carlo; base and median are retained in Extended Data Table 7.,analysis/mc_summary.json:summary.lt6_top32_M
+R04-MC-03,Monte Carlo median_ratio,1.029430412227698–1.6706536199893232,5th-95th percentile,100-member joint Monte Carlo; base and median are retained in Extended Data Table 7.,analysis/mc_summary.json:summary.median_ratio
+R04-MC-04,Monte Carlo top100_reorder,14.0–46.05,5th-95th percentile,100-member joint Monte Carlo; base and median are retained in Extended Data Table 7.,analysis/mc_summary.json:summary.top100_reorder

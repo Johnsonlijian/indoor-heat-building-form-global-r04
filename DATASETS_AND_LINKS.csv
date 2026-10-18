@@ -1,0 +1,12 @@
+dataset,version_or_year,access_url,role,redistribution_boundary
+GHS-UCDB,R2024A V1-2,https://human-settlement.emergency.copernicus.eu/ghs_ucdb2024.php,urban-centre frame and attributes,not redistributed; obtain from JRC
+GHS-POP,R2023A E2020,https://human-settlement.emergency.copernicus.eu/ghs_pop2023.php,population,not redistributed; obtain from JRC
+Global LCZ map,Demuzere et al. 2022,https://doi.org/10.1038/s41597-022-01312-3,built-form classes,not redistributed; follow source licence
+ERA5-Land,2019-2023,https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land,meteorological forcing,not redistributed; obtain from CDS
+NASA POWER,2019-2023,https://power.larc.nasa.gov/data-access-viewer/,radiation forcing,not redistributed; follow NASA terms
+ggACene,Falchetta et al. 2024,https://doi.org/10.5281/zenodo.12541994,cooling ownership,not redistributed; obtain from Zenodo
+Overture buildings,release varies,https://docs.overturemaps.org/,building footprints for bounded extensions,not redistributed; follow Overture terms
+GlobalBuildingAtlas LoD1,2025,https://source.coop/tge-labs/globalbuildingatlas-lod1,WP-D candidate height extension,not fetched in R04; upstream terms apply
+IDEAL housing dataset,2017-2018,https://www.ideal-home.org.uk/,Edinburgh validation,not redistributed; cite and obtain from source
+South-Asia loggers,Tasgaonkar et al. 2022,https://doi.org/10.6084/m9.figshare.12546368,differential validation,CC0 source; not bundled
+

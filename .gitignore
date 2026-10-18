@@ -1,0 +1,26 @@
+# Local/private inputs and environments
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+inputs/
+raw/
+downloads/
+private/
+
+# Large or machine-specific outputs
+*.parquet
+*.gpkg
+*.tif
+*.zip
+*.nc
+logs/
+tmp/
+
+# OS/editor residue
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
